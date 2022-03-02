@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		5DC4AA0127A122B8006BE38C /* lesson5_7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA0027A122B8006BE38C /* lesson5_7App.swift */; };
-		5DC4AA0327A122B8006BE38C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA0227A122B8006BE38C /* ContentView.swift */; };
 		5DC4AA0527A122B8006BE38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC4AA0427A122B8006BE38C /* Assets.xcassets */; };
 		5DC4AA0827A122B8006BE38C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC4AA0727A122B8006BE38C /* Preview Assets.xcassets */; };
+		5DC4AA0F27A122E4006BE38C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA0E27A122E4006BE38C /* SignInView.swift */; };
+		5DC4AA1127A122F2006BE38C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA1027A122F2006BE38C /* HomeView.swift */; };
+		5DC4AA1327A122FE006BE38C /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA1227A122FE006BE38C /* SignUpView.swift */; };
+		5DC4AA1527A12308006BE38C /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA1427A12308006BE38C /* StartScreen.swift */; };
+		5DC4AA1727A12395006BE38C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC4AA1627A12395006BE38C /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DC4A9FD27A122B8006BE38C /* lesson5.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lesson5.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC4AA0027A122B8006BE38C /* lesson5_7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lesson5_7App.swift; sourceTree = "<group>"; };
-		5DC4AA0227A122B8006BE38C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DC4AA0427A122B8006BE38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC4AA0727A122B8006BE38C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5DC4AA0E27A122E4006BE38C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5DC4AA1027A122F2006BE38C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5DC4AA1227A122FE006BE38C /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5DC4AA1427A12308006BE38C /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		5DC4AA1627A12395006BE38C /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				5DC4AA0027A122B8006BE38C /* lesson5_7App.swift */,
-				5DC4AA0227A122B8006BE38C /* ContentView.swift */,
+				5DC4AA1427A12308006BE38C /* StartScreen.swift */,
+				5DC4AA1027A122F2006BE38C /* HomeView.swift */,
+				5DC4AA0E27A122E4006BE38C /* SignInView.swift */,
+				5DC4AA1227A122FE006BE38C /* SignUpView.swift */,
+				5DC4AA1627A12395006BE38C /* Status.swift */,
 				5DC4AA0427A122B8006BE38C /* Assets.xcassets */,
 				5DC4AA0627A122B8006BE38C /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC4AA0327A122B8006BE38C /* ContentView.swift in Sources */,
+				5DC4AA0F27A122E4006BE38C /* SignInView.swift in Sources */,
+				5DC4AA1327A122FE006BE38C /* SignUpView.swift in Sources */,
+				5DC4AA1527A12308006BE38C /* StartScreen.swift in Sources */,
+				5DC4AA1127A122F2006BE38C /* HomeView.swift in Sources */,
 				5DC4AA0127A122B8006BE38C /* lesson5_7App.swift in Sources */,
+				5DC4AA1727A12395006BE38C /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
